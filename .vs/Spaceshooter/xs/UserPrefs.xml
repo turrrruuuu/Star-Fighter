@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{1839A839-E50E-A897-F0CE-AEABF3F7A812}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f3c94cb4-100f-4048-ae21-1409e0698787" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/NewBehaviourScript.cs">
+    <Files>
+      <File FileName="Assets/Scenes/NewBehaviourScript.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Spaceshooter" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scenes" expanded="True">
+                <Node name="NewBehaviourScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
