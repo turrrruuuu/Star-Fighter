@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     private float _canFire= 0f ;
     [SerializeField]
     private float _fireRate = 0.3f;
+    [SerializeField]
+    private float _lives = 3;
     void Start()
     {
         transform.position = new Vector3(0, 0, 0);
@@ -62,6 +64,16 @@ public class Player : MonoBehaviour
             Debug.Log("Space");
             Instantiate(_bulletPrefab, transform.position + new Vector3(0,0.8f,0),Quaternion.identity); ;
         
+    }
+    public void Damage()
+    {
+
+        _lives--;
+        if (_lives < 1)
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 }
 
