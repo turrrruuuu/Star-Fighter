@@ -13,9 +13,12 @@ public class Player : MonoBehaviour
     private float _fireRate = 0.3f;
     [SerializeField]
     private float _lives = 3;
+    SpawnManager _spawnManager;
+
     void Start()
     {
-        transform.position = new Vector3(0, 0, 0);
+        _spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
+        
     }
 
     // Update is called once per frame
@@ -69,8 +72,10 @@ public class Player : MonoBehaviour
     {
 
         _lives--;
+        Debug.Log(_lives);
         if (_lives < 1)
         {
+            _spawnManager.OnPlayerDeath();
             Destroy(this.gameObject);
         }
 
